@@ -1,17 +1,49 @@
 .section-top{
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    background-color: #1F2937;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    margin-right: 20%;
+    margin-left: 10%;
 }
 
-.logo img{
-  width: 20px;
-  height: 20px;
+.logo{
+    margin-left: 32px;
+}
+
+.logo p {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.description{
+    margin-left: 10%;
+}
+
+.description-left h1 {
+    color:#F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.description-left p {
+    color: #E5E7EB;
+    font-size: 24px;
 }
 
 .description{
@@ -52,9 +84,29 @@
 .footer{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: flex-start;
+}
+
+.footer-text p {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
 }
 
 .sign-up{
     align-self: flex-end;
+}
+
+.testimonial{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial p{
+    background-color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
 }
